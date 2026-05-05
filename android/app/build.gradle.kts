@@ -33,6 +33,12 @@ android {
         versionName = flutter.versionName
     }
 
+    externalNativeBuild {
+        cmake {
+            version = "3.22.1"
+        }
+    }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
